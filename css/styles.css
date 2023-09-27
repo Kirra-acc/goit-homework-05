@@ -644,7 +644,7 @@
 
 /* order form */
 .modal-caption {
-    /* width: 360px; */
+    width: 360px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -675,7 +675,7 @@
 }
 
 .modal-input {
-    /* width: 360px; */
+    width: 360px;
     width: 100%;
     height: 40px;
     border-radius: 4px;
@@ -742,4 +742,3 @@
     text-decoration-line: underline;
     margin-left: 4px;
 }
-
