@@ -465,6 +465,7 @@
 
 .cubscribe-btn {
     display: inline-flex;
+    padding: 8px 24px;
     justify-content: center;
     align-items: center;
     width: 165px;
