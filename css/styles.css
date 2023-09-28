@@ -502,6 +502,7 @@
 
     font-family: var(--font-main);
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     color: var(--whitebck-color);
     letter-spacing: 0.04em;
