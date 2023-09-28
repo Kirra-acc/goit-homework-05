@@ -397,30 +397,30 @@
         <p class="modal-caption">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="oder-form">
             <div class="modal-row">
-                <label class="modal-label" for="order_user_name">
+                <label class="modal-label" for="user-name">
                     <span>Name</span></label>
                     <div class="modal-field">
-                        <input class="modal-input" type="text" name="order_user_name" id="order_user_name" required minlength="2" />
+                        <input class="modal-input" type="text" name="user-name" id="user-name" required minlength="2" />
                         <svg class="modal-icon" width="18" height="24">
                       <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
             </div>
             <div class="modal-row">
-                <label class="modal-label" for="order_user_phone">
+                <label class="modal-label" for="user-phone">
                 <span>Phone</span></label>
                 <div class="modal-field">
-                    <input class="modal-input" type="tel" name="order_user_phone" id="order_user_phone" />
+                    <input class="modal-input" type="tel" name="user-phone" id="user-phone" />
                     <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
                 </div>
             </div>
             <div class="modal-row">
-                <label class="modal-label" for="order_user_email">
+                <label class="modal-label" for="user-email">
                 <span>Email</span></label>
                 <div class="modal-field">
-                    <input class="modal-input" type="email" name="order_user_email" id="order_user_email" required />
+                    <input class="modal-input" type="email" name="user-email" id="user-email" required />
                     <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg>
@@ -428,23 +428,23 @@
             </div>
 
             <div class="modal-comment">
-                <label class="modal-label" for="order_user_comment">
+                <label class="modal-label" for="user-comment">
                 <span>Comment</span></label>
-                <textarea class="modal-comment-field" name="order_user_comment" id="order_user_comment" rows="8" placeholder="Text input" required minlength="8"></textarea>
+                <textarea class="modal-comment-field" name="user-comment" id="user-comment" rows="8" placeholder="Text input" required minlength="8"></textarea>
             </div>
 
             <div class="modal-privacy">
-                <label class="modal-agreement">
-                    <input class="modal-agreement-input visually-hidden" type="checkbox" name="accept" value="agree">
-                    </label>
+                <input class="modal-agreement-input visually-hidden" type="checkbox" name="user-privacy" value="true" id="user-privacy">
+                <label class="modal-agreement" for="user-privacy">
                     <span class="modal-checkbox">
                         <svg class="modal-checkbox-icon" width="10" height="8">
-                          <use href="./images/icons.svg#icon-select"></use>
+                            <use href="./images/icons.svg#icon-select"></use>
                         </svg>
                     </span>
                     I accept the terms and conditions of the 
                     <a class="modal-agreement-link" href="" target="_blank" rel="noopener noreferrer"> Privacy Policy
                     </a>
+                </label>
                 
             </div>
 
