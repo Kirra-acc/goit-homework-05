@@ -508,14 +508,6 @@
     letter-spacing: 0.04em;
 }
 
-.subscribe-text {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    color: var(--whitebck-color);
-    /* margin-bottom: 16px; */
-}
-
 .subscribe-icon {
     margin-left: 16px;
     fill: var(--whitebck-color);
